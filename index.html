@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joy Travels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <style>
+      img {
+        max-width: 100%;
+      }
+      .intro {
+        height: 600px;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 0, 0.5),
+            rgba(0, 0, 255, 0.5)
+          ),
+          url("assets/nature.jpeg");
+        background-position: 100px 5px, 10px 40px;
+        background-repeat: no-repeat;
+        background-size: 100px 100px, cover;
+      }
+
+      .about .about-intro img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+      }
+
+      @media all and (min-width: 1024px) {
+        .about .about-intro img {
+          width: 30%;
+        }
+      }
+    </style>
+    <header>
+      <img src="./assets/logo_joy.png" alt="Logo of Joy experience" />
+      <nav>
+        <ul>
+          <li><a href="#">about</a></li>
+          <li><a href="#">retreats</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="https://facebook.com">FB</a></li>
+          <li><a href="https://instagram.com">IG</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section Hero -->
+      <section class="intro">
+        <div>
+          <h1>Experience Joy</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            corporis sed qui debitis alias explicabo facilis, tenetur eligendi
+            quas saepe a. Debitis asperiores nihil mollitia! Mollitia possimus
+            nobis magnam inventore!
+          </p>
+          <a class="primary" href="#">read more</a>
+        </div>
+
+        <!-- <div>
+          <img src="./assets/polignano-al-mare-city-bg.png" alt="" />
+        </div> -->
+      </section>
+
+      <!-- Section About us -->
+      <!-- To add the comment command /  on Mac and ctrl /  on Windows-->
+      <section class="about">
+        <div class="about-intro">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            quos iusto libero enim eveniet, suscipit est obcaecati quasi
+            assumenda incidunt culpa dolorem tempora itaque in officia illum
+            beatae, explicabo odio.
+          </p>
+          <img src="./assets/boat-on-the-sea-bg.jpg" alt="Boat on the sea." />
+        </div>
+
+        <div class="team">
+          <h3>Our team</h3>
+          <!-- parent with all team members -->
+          <div class="team-container">
+            <!-- first member -->
+            <div>
+              <img src="./assets/profile_image_Marco.png" alt="" />
+              <h4>Marco</h4>
+              <p>About Marco description</p>
+            </div>
+            <!-- second member -->
+            <div>
+              <img src="./assets/profile_image_Antonio.png" alt="" />
+              <h4>Antonio</h4>
+              <p>About Marco description</p>
+            </div>
+            <!-- third member -->
+            <div>
+              <img src="./assets/profile_image_Lucrezia.png" alt="" />
+              <h4>Lucrezia</h4>
+              <p>About Marco description</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section decor Dolce far niente -->
+      <section><p>~ dolce far niente</p></section>
+
+      <!-- Section Retreats -->
+      <section class="retreats">
+        <div class="retreats-intro">
+          <h2>Our retreats</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+            incidunt eum laborum delectus impedit aliquam suscipit dolorum
+            minima? Esse omnis repudiandae qui autem, dolorum quasi tenetur
+            laboriosam odio fugit neque?
+          </p>
+        </div>
+
+        <div class="retreats-wrapper">
+          <!-- awesome nature -->
+          <div>
+            <h3>awesome nature</h3>
+            <img src="./assets/nature.jpeg" alt="" />
+          </div>
+
+          <!-- tasty kitchen -->
+          <div>
+            <h3>tasty kitchen</h3>
+            <img src="./assets/italian-pizza.png" alt="" />
+          </div>
+
+          <!-- infinite views -->
+          <div>
+            <h3>infinite views</h3>
+            <img src="./assets/sea-view.jpg" alt="" />
+          </div>
+        </div>
+        <a href="#">check out retreats</a>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <!-- check how to add clickable tel and email! -->
+        <a href="#">joytravel@joytravels.com</a>
+        <a href="#">+48345231343</a>
+        <ul>
+          <li><a href="https://facebook.com">FB</a></li>
+          <li><a href="https://instagram.com">IG</a></li>
+        </ul>
+        <img src="./assets/ostuni-city-bg.png" alt="" />
+      </section>
+      <!-- Section Contact -->
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <p>Copyright</p>
+      <p>All rights reserved</p>
+      <a href="/privacy-policy">Privacy policy</a>
+    </footer>
+  </body>
+</html>
